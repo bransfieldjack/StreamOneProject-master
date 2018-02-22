@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta charset="UTF-8">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- My own custom external CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- Page Audio -->
+    <embed src="Audio/-summer.mp3" width="0" height="0" autostart="false" name="mysound" enablejavascript="false"/>
+
+
+    <!-- Start Javascript Form Validation -->
+
+    <script>
+      function validateform() {
+        var v = document.forms["col-md-6 form-line"]["fname"].value;
+
+        if (v == "") {
+          alert ("Name must be filled out");
+          return false;
+        }
+      }
+    </script>
+    
+</head>
+
+<body> 
+
+    
+    <header>
+
+      <!-- Header Bar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+              <div class="container-fluid">
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                        <div class="navbar-collapse collapse">
+                          <ul class="nav navbar-nav">
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                          </ul>
+                        </div>
+              </div>
+        </nav>
+    <!-- End Header Bar -->
+
+
+    <!-- Form Beginning -->
+
+        <br/> <!-- Empty Line -->
+        <br/> <!-- Empty Line -->
+        <br/> <!-- Empty Line -->
+        <br/> <!-- Empty Line -->
+        <br/> <!-- Empty Line -->
+        <br/> <!-- Empty Line -->
+
+    
+
+    
+      <section id="contact"> 
+
+        <div class="section-content">
+          <h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with us</span></h1>
+        </div>
+
+
+        <br/> <!-- Empty Line -->
+        <br/> <!-- Empty Line -->
+        <br/> <!-- Empty Line -->
+
+
+        <div class="contact-section">
+          <div class="container">
+
+            <form>
+
+              <div class="col-md-6 form-line">
+                  <div class="form-group">
+                    <label for="exampleInputUsername">Your name</label>
+                    <input type="text" name="fname" class="form-control" id="" placeholder=" Enter Name">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputEmail">Email Address</label>
+                    <input type="email" name="fname" class="form-control" id="exampleInputEmail" placeholder=" Enter Email Address">
+                  </div>  
+
+                  <div class="form-group">
+                    <label for="telephone">Mobile No.</label>
+                    <input type="tel" name="fname" class="form-control" id="telephone" placeholder=" Enter mobile no.">
+                  </div>
+
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for ="description"> Message</label>
+                      <textarea cols="100" rows="10" name="fname" class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                    </div>
+
+                  <div>
+                    <button type="button" name="fname" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
+                  </div>
+                  
+              </div>
+            </form>
+      </div>
+    </section>
+        
+
+    
+    
+  
+
+
+
+       
+
+
+    
+</body>
+</html>
