@@ -32,6 +32,22 @@ p {
 	margin-right: 350px;
 	margin-left: 350px;
 }
+/* About Page Text */
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+/* End About Page Text */
+
 /*Vertical Alignment Class*/
 .vertical-center {
 	min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
@@ -67,7 +83,6 @@ p {
     background-repeat:no-repeat;
     background-position:center 100%;
     padding:210px 0 210px 0;
-
 }
 /* NavBar Class */
 .topnav {
@@ -212,7 +227,7 @@ video {
 
 /*Modal CSS for gallery pictures: */
 
- /* Style the Image Used to Trigger the Modal */
+/* Style the Image Used to Trigger the Modal */
 .myImg {
     border-radius: 5px;
     cursor: pointer;
@@ -297,10 +312,6 @@ video {
     .modal-content {
         width: 100%;
     }
-}
-.images {
-    <img class="myImg" src="img\web1.jpg" alt="Trolltunga, Norway" width="300" height="200">
-    <img class="myImg" src="img\web2.jpg" alt="Trolltunga, Norway" width="300" height="200">
 }
 
 /*End Modal CSS */
