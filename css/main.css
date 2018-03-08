@@ -57,11 +57,11 @@ div.transbox p {
 }
 .flex-container-text { /* For Text Styling Only */
     display:flex;
-    flex-direction: row;
+    flex-direction: left;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: flex-start;
-    align-items: flex-start;
+    align-content: flex-right;
+    align-items: flex-right;
 }
 .flex-container {
 	display:flex;
