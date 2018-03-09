@@ -27,7 +27,7 @@ h1 {
 }
 p {
 	font-family: Snell Roundhand Script;
-	font-size: 30px;
+	font-size: 35px;
 	text-align: center;
 	margin-right: 350px;
 	margin-left: 350px;
@@ -82,8 +82,11 @@ div.transbox p {
 	  background-image: url(banner.jpg);
     background-repeat:no-repeat;
     background-position:center 100%;
-    padding:210px 0 210px 0;
+    padding:100px 0 150px 0;
+    margin-top: 0;
     margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 .nav ul {
    list-style: none;
@@ -94,7 +97,7 @@ div.transbox p {
    display: inline-block;
 }
 
-/* NavBar Class */
+/* F Class */
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -325,8 +328,23 @@ div.transbox p {
         width: 100%;
     }
 }
-
+.tex {
+  text-align: center;
+  padding-left: 20;
+  padding-right: 20;
+  margin-right: 20;
+  margin-left: 20;
+  background-color: #000000;
+}
 /*End Modal CSS */
+
+
+
+
+
+
+
+
 
 
 
