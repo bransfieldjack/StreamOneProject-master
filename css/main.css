@@ -15,15 +15,13 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
-header {
-	margin-top: 5px;
-}
 h1 {
 	font-family: Snell Roundhand Script;
 	font-size: 50px;
 	text-align: center;
 	margin-right: 350px;
 	margin-left: 350px;
+  color: black;
 }
 p {
 	font-family: Snell Roundhand Script;
@@ -31,40 +29,19 @@ p {
 	text-align: center;
 	margin-right: 350px;
 	margin-left: 350px;
+  color: black;
 }
-/* About Page Text */
-div.transbox {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-}
-
-div.transbox p {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
-/* End About Page Text */
-
-/*Vertical Alignment Class*/
-.vertical-center {
-	min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 50vh; /* These two lines are counted as one :-)       */
-    display: flex;
-    align-items: right;
-}
-.flex-container-text { /* For Text Styling Only */
+.flex-container-text { /* For Text Styling */
     display:flex;
-    flex-direction: left;
+    background: #eff4fc;
+    opacity: 0.4;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: flex-right;
-    align-items: flex-right;
+    align-content: auto;
+    align-items: auto;
 }
 .flex-container {
-	display:flex;
+	  display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -99,6 +76,16 @@ div.transbox p {
     margin-bottom: 0;
     margin-right: 0;
     margin-left: 0;
+}
+.btn-primary-outline { /* Landing Page Button */
+  background-color: transparent;
+  border-color: #ccc;
+  padding: 48px 68px;
+    font-size: 62px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 40px;
+       -moz-border-radius: 40px;
+            border-radius: 40px;
 }
 .nav ul {
    list-style: none;
@@ -349,6 +336,16 @@ div.transbox p {
   background-color: #000000;
 }
 /*End Modal CSS */
+
+/* Begin form validation CSS */
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 2px solid black;
+}
 
 
 
