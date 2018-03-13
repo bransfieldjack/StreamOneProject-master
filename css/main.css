@@ -88,6 +88,18 @@ div.transbox p {
     margin-right: 0;
     margin-left: 0;
 }
+.jumbotronlanding {  
+    background-color: #;
+    background-size: auto auto;
+    background-image: url('../img/banner.jpg');
+    background-repeat:no-repeat;
+    background-position:center 100%;
+    padding:100px 0 150px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
 .nav ul {
    list-style: none;
    text-align: center;
