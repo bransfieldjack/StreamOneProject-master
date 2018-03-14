@@ -48,6 +48,8 @@ p {
 .homeimage {
   height: auto;
   width: auto;
+  padding-right: 0;
+  padding-left: 0;
 }
 .flex-container-text { /* For Text Styling */
   font-family: Snell Roundhand Script;
