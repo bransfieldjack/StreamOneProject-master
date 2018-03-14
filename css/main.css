@@ -6,6 +6,13 @@ html {
 	background-size: cover;
 	background-size: cover;
 }
+.landing {
+  background: url(../img/homepage.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+}
 /*Body Styling */
 body {
 	padding-top: 20px;
@@ -19,26 +26,39 @@ h1 {
 	font-family: Snell Roundhand Script;
 	font-size: 50px;
 	text-align: center;
-	margin-right: 350px;
-	margin-left: 350px;
+	margin-right: auto;
+	margin-left: auto;
   color: black;
+  opacity: 0.6;
+  background-color: #dcdfe5
+  
 }
 p {
 	font-family: Snell Roundhand Script;
-	font-size: 35px;
+  word-wrap: wrap;
+	font-size: 20px;
 	text-align: center;
-	margin-right: 350px;
-	margin-left: 350px;
+	margin-right: auto;
+	margin-left: auto;
   color: black;
+  opacity: 0.6;
+  background-color: #dcdfe5
+  
+}
+.homeimage {
+  height: auto;
+  width: auto;
 }
 .flex-container-text { /* For Text Styling */
-    display:flex;
-    background: #eff4fc;
-    opacity: 0.4;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: auto;
-    align-items: auto;
+  font-family: Snell Roundhand Script;
+  word-wrap: wrap;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0.8;
+  background-color: #dcdfe5
 }
 .flex-container {
 	  display:flex;
@@ -51,6 +71,9 @@ p {
 .flex-container-items {
     width: auto;
     height: auto;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
 }
 /*Jumbotron Class*/
 .jumbotron {  
@@ -348,9 +371,36 @@ input:valid {
 }
 
 
+.footer {
+    display: center;
+    height: 1px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook { /* Facebook Footer Icon */
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.socialmedia {
 
-
-
+}
 
 
 
