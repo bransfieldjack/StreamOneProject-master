@@ -43,13 +43,24 @@ p {
   color: black;
   opacity: 0.6;
   background-color: #dcdfe5
-  
+}
+.vid {
+  margin: 0 auto;
+  border: 10px outset #ddd;
 }
 .homeimage {
   height: auto;
   width: auto;
   padding-right: 0;
   padding-left: 0;
+}
+.collagelg {
+  height: auto;
+  width: auto;
+  padding-right: 10px;
+  padding-left: 15px;
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 .flex-container-text { /* For Text Styling */
   font-family: Snell Roundhand Script;
