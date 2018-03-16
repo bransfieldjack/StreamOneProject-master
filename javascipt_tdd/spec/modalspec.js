@@ -1,7 +1,11 @@
 	describe("Modal", function() {
+
+		var mod = new Modal();
+
 	    describe('Get Modal', function() {
-		        it('should pass', function() {
-		            expect(modal1()).toBe('myModal');
+
+		        it('should return the modal', function() {
+		            
 	        });
 	    });
     });

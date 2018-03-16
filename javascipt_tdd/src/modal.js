@@ -1,4 +1,4 @@
-function modal1() {
+function modal() {
 	var modal = document.getElementById('myModal');	
 }
 
