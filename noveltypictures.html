@@ -178,9 +178,9 @@ var modal = document.getElementById('myModal');         //Calls the modal by its
                                                         // Gets the image and inserts it into the modal using the "alt" content as a caption
 var img = $('.myImg');                                  // Sets the variable 'img' equal to the CSS class .myImg. 
 var modalImg = $("#img01");                             // Sets the variable 'modalImg' equal to the ID of the modal-content CSS class (img01).
-var captionText = document.getElementById("caption");
-$('.myImg').click(function(){
-    modal.style.display = "block";
+var captionText = document.getElementById("caption");   // Sets the variable 'captionText' equal to the ID of the modals caption. 
+$('.myImg').click(function(){                           // Uses JQuery to create an onClick function. 
+    modal.style.display = "block";                      // Sets the display style of the modal.
     var newSrc = this.src;
     modalImg.attr('src', newSrc);
     captionText.innerHTML = this.alt;
