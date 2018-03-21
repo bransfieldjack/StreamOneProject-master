@@ -1,4 +1,4 @@
-	describe("Modal", function() {
+	describe("ModalTest", function() {
 
 		var mod = new Modal();
 

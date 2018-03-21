@@ -7,8 +7,14 @@
 
     <meta charset="UTF-8">
 
-    <!-- Latest compiled and minified CSS -->
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- My own custom external CSS -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -38,30 +44,26 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <nav class="navbar navbar-inverse bg-inverse navbar-fixed">
-          <div class="container">         
-            <span>
-              <button class="navbar-toggle" data-toggle="collapse" data-target="navHeaderCollapse">
+          <nav class="navbar navbar-inverse bg-inverse navbar-fixed">       
+              
+              <button class="navbar-toggle" data-toggle="collapse" data-target="#navHeaderCollapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                <div class="collapse navbar-collapse navHeaderCollapse">
-                  <a class="navbar-brand" href="landing.html">Pebble Lyrics</a>
+                <div class="collapse navbar-collapse" id="navHeaderCollapse">
                     <ul class="nav navbar-nav navbar-center">
-                      <li><a href="home.html">Home</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="portfolio.html">Portfolio</a></li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li class="nav-item active"><a class="navbar-brand nav-link col-xs-12" href="landing.html">Pebble Lyrics</a>
+                      <li class="nav-item"><a class="nav-link col-xs-12" href="home.html">Home</a></li>
+                      <li class="nav-item"><a class="nav-link col-xs-12" href="about.html">About</a></li>
+                      <li class="nav-item"><a class="nav-link col-xs-12" href="portfolio.html">Portfolio</a></li>
+                      <li class="nav-item"><a class="nav-link col-xs-12" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-            </span>
-          </div>
           </nav>
         </div>
       </div>
     </div>
-
 <!-- Bottom End Navbar -->
 <br/> <!-- Empty Line -->
 <br/> <!-- Empty Line -->
